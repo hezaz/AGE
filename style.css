@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'AGE';
+    src: url('AGE.otf');
+}
+
+*
+{
+	font-family: 'AGE';
+}
+
+h1
+{
+
+}
+
+
+.bouton
+{
+	background-color:  rgb(244, 193, 29);
+}
+
+body
+{
+	margin:0 auto;
+	
+}
+
+.back_coming
+{
+
+	width: 100%;
+	height: 2300px;
+	background-color:  rgb(244, 193, 29);
+
+
+}
+
+.logo_avenir
+{
+	
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.logo_acceuil
+{
+	 width: auto;
+	 height: 100%;
+}
+
+.logo_id
+{
+	 width: auto;
+	 height: 100%;
+}
+
+.text
+{	
+
+
+}
+
+.text_avenir
+{
+	margin: auto;
+	color: white;
+	font-size: 2em;
+	text-align: center;
+}
+
+
+.logo:hover
+{
+
+
+    background-color: #FFCC66;
+
+}
+
+.pseudo
+{
+
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+} 
+
+.m
+
+
+.erreur_form
+{
+	color: white;
+}
+
+
+#header
+{
+	
+	width: 100%;
+	height: 150px:
+	background-color:  rgb(244, 193, 29);
+	text-decoration:none;
+	vertical-align:middle;
+}
+
+.entete
+{
+	
+	width: 100%;
+	height: 80px;
+	background-color:  rgb(244, 193, 29);
+	vertical-align:middle;
+	text-decoration:none;
+	
+	border-collapse: separate;
+    border-spacing: 10%;
+	
+
+}
+
+.titre
+{
+	width: 100%;
+	height: 80px;
+	text-decoration:none;
+	vertical-align:middle;
+
+
+
+
+
+	color: white;
+	text-align: center;	
+	font-size: 1em;
+}
+
+
+.menu
+{
+
+	color: white;
+	text-decoration:none;
+	
+
+
+}
+
+.sous-page-1
+{
+
+}
+
+
+
+.sous-page-2
+{
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+
+}
+
+.winner_title
+{
+	margin: auto;
+	font-size: 2em;
+	text-align: center;
+	color:  rgb(244, 193, 29);
+}
+
+.winner_titl
+{
+	margin: auto;
+	font-size: 1.5em;
+	text-align: center;
+	color:  rgb(244, 193, 29);
+}
+
+.fond1
+{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+
+.center1{
+	text-align: center;
+}
+.JOUER
+{
+
+ 	position: absolute;
+  	top: 30%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	color: rgb(244, 193, 29);
+  	font-size: 2.5em;
+
+	
+}
+
+#conteneur_logo_gagnant
+{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+#conteneur_logo_jeux
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#conteneur_logo_jeux div
+{
+	justify-content: center;
+
+	
+}
+.pseudo_winner
+{
+	
+	text-align: center;
+
+}
+
+.logo_jeux
+{
+	width: 500px;
+	height: 250px;
+}
+
+
+.img1
+{
+	position: absolute;
+}
+
+.test4
+{
+	display: inline-block;
+
+}
+.sous-page-2
+{
+	position: absolute;
+
+	
+
+
+}
+
+
+
+.attente
+{
+	text-align: center;
+}
+
+.logo_C1
+{
+	margin-left: 10%;
+}
+
+.logo_C2
+{
+	border: 3px black;
+
+}
+
+
+
+.classement
+{
+
+    border-collapse: separate;
+    border-spacing:  8px;
+
+  
+ }
+
+.cadre_chat
+{
+	width: 70%;
+	height: 500px;
+	border: 5px solid rgb(244, 193, 29);
+	margin: auto;
+	border-radius: 30px;
+	overflow-y: scroll;
+	scrollbar-color: rgb(244, 193, 29);
+	scrollbar-width: thin;
+
+}
+
+.petit_msg{
+	font-size: 0.5em;
+	text-align: center;
+	color: black;
+
+}
+
+.fond_con
+{
+
+
+
+
+	position: absolute;
+
+	top: 350px;
+	width: 100%;
+
+}
+
+
+
+.textaeraf
+{
+  	width: 50%;
+
+	border-color: rgb(244, 193, 29);
+
+	border-width: 0.5em;
+}
+
+
+input {
+
+  	width: 70%;
+  	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-color: rgb(244, 193, 29);
+
+	border-width: 0.5em;
+}
+
+
+table 
+{
+	margin: auto;
+	
+	border-collapse: separate;
+
+	height: 150px;
+	
+}
+.tab_tournoi
+{
+
+
+	margin: auto;
+	border-spacing: 20px 0px;
+
+}
+
+.tab_classement
+{
+
+	border-spacing: 20px;
+}
+.border_td
+{
+	border: 2px solid black;
+}
+.table_jeux
+{
+	margin: auto;
+}
+
+.chat
+{
+	margin: auto;
+}
+
+
+.form
+{
+	left: 40%;
+}
+
+
+.mot_form
+{
+
+	color: rgb(244, 193, 29);
+}
+
+
+.fond_co
+{
+	left: 40%;
+	width: 100%;
+	height: 2050px;
+}
+
+.coupe_tournoi
+{
+	display: block;
+    margin: auto;
+}
+
+.mess_get
+{
+	color: black;
+	float: right;
+	text-align: right;
+}
+
+
+
+.mess_send
+{
+	color: rgb(244, 193, 29);
+	text-align: center;
+}
+.div_image_tournoi
+{
+	width: 487px;
+	height: 487px;
+	border-width: 3px;
+	border-color: rgb(244, 193, 29);
+}
+
+.bord_tournoi
+{
+	border: 10px solid rgb(244, 193, 29);
+}
+
+
+@media all and (max-width: 1600px)
+
+{
+
+	.image_tournoi
+	{
+		
+		width: 100%;
+		height: auto;
+	}
+
+	.div_image_tournoi
+	{
+		width: 245px;
+	}
+}
