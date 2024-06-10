@@ -3,7 +3,6 @@
 session_start();
 
 
-$bdd = new PDO('mysql:host=africayhedi.mysql.db;dbname=africayhedi;charset=utf8', 'africayhedi', '2584296Aa');
 
 if (isset($_SESSION['id'])) {
 	$pseudo = $_SESSION['pseudo'];
